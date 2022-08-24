@@ -1,0 +1,142 @@
+*,
+*:before,
+*:after {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    border-radius:8px;
+    padding:0px;
+    background-color:rgb(183, 27, 157)
+
+}
+
+body {
+    height:100vh;
+    background: linear-gradient( /* #8052ec,
+        #d161ff */
+    #ffffff);
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+
+#newtask {
+    position: relative;
+    background-color: #ffffff55;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.082);
+}
+
+#newtask input {
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #a1a0c9;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #102ff6;
+    border: none;
+    color:#ffffff;
+    cursor:pointer;
+    outline: none;
+    margin-top: -46px;
+}
+
+
+#tasks {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(2, 0, 3, 0.041);
+    width: 100%;
+    position: relative;
+}
+
+.task {
+    background-color: #ffffff18;
+    height: 50px;
+    padding:5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d2d4;
+    cursor: pointer;
+}
+
+
+.task span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color:white
+
+}
+
+
+.task button {
+    background-color: #dc3545;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.task button {
+    background-color: #dc3545;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+body {
+    height: 100vh;
+    background: rgb(177, 237, 188);
+
+}
+
+.todoTitle h1 {
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman',Times,serif;
+    color: rgba(254, 250,250, 0.996);
+    text-align: center;
+    font-weight: 900;
+}
